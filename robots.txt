@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://popjy0312.github.io/
+Sitemap: https://popjy0312.github.io/sitemap.xml

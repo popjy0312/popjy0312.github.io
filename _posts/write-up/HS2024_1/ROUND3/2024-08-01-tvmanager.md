@@ -74,7 +74,7 @@ struct struct_node // sizeof=0x14
 
 1. 첫번째 방법은 md5 collision을 이용하는 것이다.
 
-    파일 제목을 `md5(title)`로 지정하는데, 파일 중복 검사는 title 평문으로 이루어지기 때문에 같은 파일제목을 같는 2개의 노드를 만들 수 있다.
+    파일 제목을 `md5(title)`로 지정하는데, 파일 중복 검사는 title 평문으로 이루어지기 때문에 같은 파일제목을 갖는 2개의 노드를 만들 수 있다.
 
     <div style="display: flex; justify-content: space-between;">
         <img src="/assets/img/posts/HS2024-1/tvmanager/dup_title.png" style="width: 80%;" alt="dup_title">

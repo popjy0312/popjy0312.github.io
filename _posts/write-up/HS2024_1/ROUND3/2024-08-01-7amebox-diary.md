@@ -1,5 +1,5 @@
 ---
-title: "[HS2024] [CODEGATE 2018] 7amebox-diary Write-up"
+title: "[CODEGATE 2018] 7amebox-diary Write-up"
 date: 2024-08-01 20:00:00 +0900
 categories: [WRITE-UP, PWN]
 tags: [hs2024, codegate, ctf, pwn, 7amebox, vm]     # TAG names should always be lowercase

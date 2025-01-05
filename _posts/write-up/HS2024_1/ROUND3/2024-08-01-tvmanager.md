@@ -1,5 +1,5 @@
 ---
-title: "[HS2024] tvmanager Write-up"
+title: "tvmanager Write-up"
 date: 2024-08-01 18:30:00 +0900
 categories: [WRITE-UP, PWN]
 tags: [hs2024, ctf, pwn, md5, hash, collision, race condition, fake chunk, use after free, uaf]     # TAG names should always be lowercase
